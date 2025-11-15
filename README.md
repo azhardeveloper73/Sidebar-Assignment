@@ -32,6 +32,9 @@ A modern, responsive sidebar navigation assignment with social SVG icons and cle
 
 ## Links
 
+- **Repository:** [Sidebar Assignment Repo](https://github.com/azhardeveloper73/Sidebar-Assignment)  
+- **Live Site:** [View Live on GitHub Pages](https://azhardeveloper73.github.io/Sidebar-Assignment/)  
+
 - Facebook: [Your Profile](https://facebook.com/azhardeveloper73)  
 - GitHub: [Your Profile](https://github.com/azhardeveloper73)  
 - LinkedIn: [Your Profile](https://www.linkedin.com/in/azhardeveloper73)  
