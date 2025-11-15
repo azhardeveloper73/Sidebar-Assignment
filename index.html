@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar-Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">AZHAR DEVELOPER</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="social-icons">
+      <!-- Facebook SVG -->
+      <a href="https://www.facebook.com/Azuu.vayani" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+          <path d="M22 12.07C22 6.5 17.52 2 11.95 2 6.5 2 2 6.5 2 12.07 2 17.1 5.66 21.19 10.44 21.98v-7.89H8.08v-3.02h2.36V9.1c0-2.33 1.39-3.6 3.52-3.6 1.02 0 2.09.18 2.09.18v2.3h-1.18c-1.17 0-1.53.73-1.53 1.48v1.77h2.6l-.42 3.02h-2.18V22C18.34 21.19 22 17.1 22 12.07z"/>
+        </svg>
+      </a>
+
+      <!-- GitHub SVG -->
+      <a href="https://github.com/azhardeveloper73" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+          <path d="M12 .5C5.66.5.5 5.66.5 12.02c0 5.11 3.29 9.44 7.86 10.97.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.95-3.2.7-3.88-1.39-3.88-1.39-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.18a11 11 0 0 1 2.87-.39c.97 0 1.95.13 2.87.39 2.19-1.49 3.15-1.18 3.15-1.18.62 1.57.23 2.73.11 3.02.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.41.35.77 1.04.77 2.1 0 1.52-.01 2.75-.01 3.12 0 .3.21.65.79.54A10.54 10.54 0 0 0 23.5 12.02C23.5 5.66 18.34.5 12 .5z"/>
+        </svg>
+      </a>
+
+      <!-- LinkedIn SVG -->
+      <a href="https://www.linkedin.com/in/azhar-developer-7971a6388/" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+          <path d="M4.98 3.5C4.98 4.6 4.12 5.5 3.02 5.5 1.92 5.5 1.05 4.6 1.05 3.5 1.05 2.4 1.92 1.5 3.02 1.5 4.12 1.5 4.98 2.4 4.98 3.5zM.91 8.5h4.22V24H.91V8.5zM8.5 8.5h4.05v2.08h.06c.56-1.06 1.93-2.17 3.97-2.17 4.25 0 5.04 2.8 5.04 6.44V24h-4.22v-6.78c0-1.62-.03-3.71-2.27-3.71-2.27 0-2.62 1.77-2.62 3.6V24H8.5V8.5z"/>
+        </svg>
+      </a>
+
+      <!-- YouTube SVG -->
+      <a href="https://youtube.com" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+          <path d="M19.615 3.184C18.403 2.85 12 2.85 12 2.85s-6.403 0-7.615.334C3.135 3.52 2.85 4.988 2.85 6v12c0 1.012.285 2.48 1.535 2.816C5.597 21.15 12 21.15 12 21.15s6.403 0 7.615-.334C20.865 20.48 21.15 19.012 21.15 18V6c0-1.012-.285-2.48-1.535-2.816zM10 15V9l6 3-6 3z"/>
+        </svg>
+      </a>
+    </div>
+    <div class="menu-btn" id="menuBtn">☰</div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+      <button id="closeSidebar">✕</button>
+    </div>
+    <nav class="sidebar-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="sidebar-socials">
+      <!-- Same SVGs inside sidebar -->
+      <a href="https://www.facebook.com/Azuu.vayani" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+          <path d="M22 12.07C22 6.5 17.52 2 11.95 2 6.5 2 2 6.5 2 12.07 2 17.1 5.66 21.19 10.44 21.98v-7.89H8.08v-3.02h2.36V9.1c0-2.33 1.39-3.6 3.52-3.6 1.02 0 2.09.18 2.09.18v2.3h-1.18c-1.17 0-1.53.73-1.53 1.48v1.77h2.6l-.42 3.02h-2.18V22C18.34 21.19 22 17.1 22 12.07z"/>
+        </svg>
+      </a>
+      <a href="https://github.com/azhardeveloper73" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+          <path d="M12 .5C5.66.5.5 5.66.5 12.02c0 5.11 3.29 9.44 7.86 10.97.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.95-3.2.7-3.88-1.39-3.88-1.39-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.74 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.18a11 11 0 0 1 2.87-.39c.97 0 1.95.13 2.87.39 2.19-1.49 3.15-1.18 3.15-1.18.62 1.57.23 2.73.11 3.02.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.41.35.77 1.04.77 2.1 0 1.52-.01 2.75-.01 3.12 0 .3.21.65.79.54A10.54 10.54 0 0 0 23.5 12.02C23.5 5.66 18.34.5 12 .5z"/>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/azhar-developer-7971a6388/" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+          <path d="M4.98 3.5C4.98 4.6 4.12 5.5 3.02 5.5 1.92 5.5 1.05 4.6 1.05 3.5 1.05 2.4 1.92 1.5 3.02 1.5 4.12 1.5 4.98 2.4 4.98 3.5zM.91 8.5h4.22V24H.91V8.5zM8.5 8.5h4.05v2.08h.06c.56-1.06 1.93-2.17 3.97-2.17 4.25 0 5.04 2.8 5.04 6.44V24h-4.22v-6.78c0-1.62-.03-3.71-2.27-3.71-2.27 0-2.62 1.77-2.62 3.6V24H8.5V8.5z"/>
+        </svg>
+      </a>
+      <a href="https://youtube.com" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+          <path d="M19.615 3.184C18.403 2.85 12 2.85 12 2.85s-6.403 0-7.615.334C3.135 3.52 2.85 4.988 2.85 6v12c0 1.012.285 2.48 1.535 2.816C5.597 21.15 12 21.15 12 21.15s6.403 0 7.615-.334C20.865 20.48 21.15 19.012 21.15 18V6c0-1.012-.285-2.48-1.535-2.816zM10 15V9l6 3-6 3z"/>
+        </svg>
+      </a>
+    </div>
+  </aside>
+
+</body>
+<script src="first.js"></script>
+</html>
